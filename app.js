@@ -22,7 +22,7 @@ class GroceryListItem extends React.Component {
 
   onListItemClick() {
     this.setState({
-      done: !this.state.done;
+      done: !this.state.done
     });
   }
 
